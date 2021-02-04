@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/*container i golova
+=============*/
+.container{
+
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto ;
+
+
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: 1000;
+    }
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    padding :100px;
+}
+.active{
+    justify-content: center;
+    position: relative;
+    font-size:32px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+/* logo zdes*/
+.header__logo{
+
+    position: relative;
+}
+.nav{
+    justify-content: center;
+    position: relative;
+    font-size:13px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.nav__link{
+    color:#fff;
+    text-decoration: none;
+    opacity:    0.75;
+}
+/*это андерлинит при наводке*/
+.nav__link:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/*intro body
+=============*/
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    height: 852px;
+    background: url("ss/yellow\ bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+p{
+ margin: 0 0 10px 0;
+
+
+}
+.container_intro{
+
+    text-align: center;
+}
+.intro__title{
+  
+    margin: 0 0 30px ;
+    font-family:'Open Sans', sans-serif;
+    font-size: 45px;
+    line-height: 1.1;
+    color:#fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.subtitle{
+    padding: 10px;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color:#fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*knopka zdes genii*/
+.button{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar-brand{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:13px;
+    font-weight: 700;
+}
+.navbar-nav{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:13px;
+    font-weight: 700;
+}
+
+.photos{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 100px;
+
+}

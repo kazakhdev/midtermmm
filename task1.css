@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  span{
+      font-size:large;
+    color:whitesmoke;
+    text-align: center;
+  }
+
+    hr.new2 {
+    border:none;
+    border-top:12px dotted gray; 
+    color:#fff;
+    background-color:whitesmoke;
+    height:1px;
+    width:30%;
+} 
+.divmid {
+    border: 10px ridge whitesmoke;
+    background-color:gray;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.divmid img {
+    background-position: cover;
+}
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+ nav{  
+     text-align: center; 
+     background-color: yellow;
+     width: 40%;
+ }
